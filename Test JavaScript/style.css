@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.std-box
+{
+    box-shadow: 0 0 15px 5px rgb(184, 183, 183);
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+h2
+{
+    margin-top:20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+#employeeData-1
+{
+    padding:20px;
+}
+
+.em-1
+{
+    position:relative;
+    width: 100%;
+    height: 70vh;
+}
+#employeeData-1 input
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: gray;
+    border:2px solid gray;
+    outline: none;
+    margin-top: 20px;
+}
+#job-1
+{
+    margin-top:20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    border: 2px solid grey;
+    outline: none;
+}
+#job-2
+{
+    margin-top:20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    border: 2px solid grey;
+    outline: none;
+}
+
+table
+{
+    width: 100%;
+}
+table th
+{
+    background-color: #ffd64fff;
+    padding: 10px;
+    border: none;
+}
+table td
+{
+    border-bottom: 1px solid rgb(156, 155, 155);
+}

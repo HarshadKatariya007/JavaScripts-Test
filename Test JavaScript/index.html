@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   <section class="em-1">
+    <div class="std-box">
+        <form id="employeeData-1">
+            <h2>Hire A New Employee</h2>
+            <input type="text" placeholder="Enter Employee Name" id="employee-name">
+            <select id="job-1">
+                <option>Select Job Role</option>
+                <option value="Flutter Developer">Flutter Developer</option>
+                <option value="Ios Developer">IOS Developer</option>
+                <option value="Android Developer">Android Developer</option>
+            </select>
+            <select id="job-2">
+                <option>Select Department</option>
+                <option value="Enginner">Enginner</option>
+                <option value="HR">HR</option>
+            </select>
+            <input type="number" placeholder="Monthly Salary" id="salary">
+            <input type="text" placeholder="Work Experience" id="experience">
+            <input type="email" placeholder="Contact Emial Id" id="email">
+            <input type="submit" value="Hire">
+        </form>
+    </div>
+   </section>
+   <section class="table">
+    <table cellspacing="3px" cellpadding="10px">
+        <thead>
+            <tr>
+             <th>Employee Name</th>
+            <th>Job Role</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Contact Email</th>
+            <th>Work Experience</th>
+            <th>Role Type</th>
+            <th id="employee-delete">Fire Employee</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+   </section>
+
+</body>
+<script src="./index.js"></script>
+</html>
